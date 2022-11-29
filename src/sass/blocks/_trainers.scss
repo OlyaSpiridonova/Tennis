@@ -1,0 +1,77 @@
+.trainers {
+    padding-top: 100px;
+    max-height: 530px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            font-weight: 700;
+            font-size: 24px;
+            color: #333333;
+        }
+    }
+
+    &__arrows {
+        display: flex;
+        justify-content: space-between;
+        width: 105px;
+
+        &-prew {
+            border: none;
+            padding: 9px 12px;
+            right: 15px;
+            width: 45px;
+            height: 45px;
+            background: #8D86C9;
+        }
+
+        &-next {
+            border: none;
+            padding: 9px 12px;
+            width: 45px;
+            height: 45px;
+            background: #8D86C9;
+        }
+    }
+
+    &__slaider {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        justify-content: space-between;
+
+        &-item {
+            display: grid;
+            grid-template-rows: 242px 58px 60px;
+            justify-content: flex-start;
+
+            h2 {
+                padding-top: 15px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 140%;
+                text-align: center;
+                color: #333333;
+            }
+
+            h3 {
+                padding-top: 10px;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 140%;
+                text-align: center;
+                color: #333333;
+            }
+        }
+
+    }
+
+    &__photo {
+        margin: 0 auto;
+        /* width: 90%; */
+        border: 1px solid #f7ece1;
+        padding: 0px 10px;
+    }
+}

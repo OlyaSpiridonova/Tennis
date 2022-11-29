@@ -1,0 +1,33 @@
+.training {
+    padding-top: 150px;
+    background: #FFFFFF;
+
+    &__wrapper {
+        display: flex;
+        grid-template-columns: repeat(3, 416px);
+        column-gap: 15px;
+    }
+
+    &__item {
+        position: relative;
+        padding: 25px 20px;
+        border: 1px solid #F7ECE1;
+
+        img {
+            width: 100%;
+        }
+
+        h2 {
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 140%;
+            text-align: center;
+            color: #fff;
+
+        }
+    }
+}

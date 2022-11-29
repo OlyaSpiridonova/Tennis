@@ -1,0 +1,71 @@
+.club {
+    padding-top: 150px;
+    position: relative;
+    max-height: 700px;
+
+    &__descr {
+        display: grid;
+        grid-template-columns: 500px 560px;
+        grid-template-rows: 500px;
+    }
+
+    &__wrapper {
+        background: #F7ECE1;
+        padding-left: 110px;
+
+        h1 {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 140%;
+            color: #333333;
+        }
+
+        p {
+            margin-top: 25px;
+            width: 430px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            color: #333333;
+        }
+
+        ul {
+            width: 400px;
+
+            li {
+                position: relative;
+                list-style-type: none;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: -5%;
+                    top: 8px;
+                    width: 8px;
+                    height: 8px;
+                    background: #8d86c9;
+                }
+            }
+        }
+
+        h2 {
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 140%;
+            color: #333333;
+        }
+    }
+
+    &__img {
+        position: relative;
+
+        img {
+            position: absolute;
+            top: 56px;
+            left: 163px;
+            width: 392px;
+            height: 400px;
+
+        }
+    }
+}
